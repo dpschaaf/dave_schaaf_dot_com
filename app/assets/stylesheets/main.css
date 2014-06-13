@@ -1,0 +1,102 @@
+.resume-company {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.resume-date {
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.resume-title {
+  text-align: left;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.resume-location {
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.resume-section {
+  margin-top: 10px;
+}
+
+.resume-content {
+  list-style: square outside none;
+}
+
+li.resume-bullet {
+  list-style: none;
+  font-size: 1.1em;
+  padding-bottom: 4px;
+  padding-left: 15px;
+}
+
+.my-nav {
+  background-color: black;
+  margin-bottom: 0;
+  border: 0;
+}
+
+.my-nav li a {
+  color: #fff;
+}
+
+.nav li a:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: #AAA;
+  font-size: 1.5em;
+}
+
+.landing-title {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  margin-top: 10%;
+  color: white;
+}
+
+div.landing-title h1 {
+  font-size: 4em;
+}
+div.landing-title h2 {
+  margin-top: 100px;
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+}
+
+.landing-panel {
+  background: url(hampi-bg.png) no-repeat center center;
+  height: 700px;
+}
+
+.quote-panel {
+  background-color: white;
+  height: 500px;
+  text-align: center;
+}
+
+.quote {
+  margin-top: 100px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.landing-page {
+  position: relative;
+}
+
+footer.panel {
+  background-color: black;
+  border: 0;
+  margin: 0;
+  height: 100px;
+}
