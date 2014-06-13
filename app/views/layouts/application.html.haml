@@ -8,18 +8,19 @@
     = javascript_include_tag "application"
     %link{rel: "stylesheet", href: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"}
     %script{src: "//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"}
-    = stylesheet_link_tag    "dave", :media => "all"
+    %link{rel:'stylesheet', href: 'http://fonts.googleapis.com/css?family=Roboto+Slab', type:'text/css'}
+    %link{href:'http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two', rel:'stylesheet', type:'text/css'}
+    = stylesheet_link_tag    "main", media: "all"
     = csrf_meta_tags
 
 %body
-  .container.clearfix
-    %nav.navbar.navbar-default.my-nav{role: 'navigation'}
-      .container-fluid
-        .navbar-brand= link_to "DS", root_path
-        %ul.nav.nav-justified
-          %li= link_to "Resume", resume_path
-          %li= link_to "Portfolio", portfolio_path
-          %li= link_to "Endurance", running_path
-          %li= link_to "Travel", travel_path
+  %nav.navbar.navbar-default.my-nav{role: 'navigation'}
+    .container-fluid
+      .navbar-brand= link_to "DS", root_path
+      %ul.nav.nav-justified
+        %li= link_to "Resume", resume_path
+        %li= link_to "Portfolio", portfolio_path
+        %li= link_to "Endurance", running_path
+        %li= link_to "Travel", travel_path
 
-    = yield
+  = yield
